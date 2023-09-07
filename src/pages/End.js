@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 const end = () => {
   return (
     <div>
@@ -11,9 +9,6 @@ const end = () => {
         voluptate eos amet debitis fugit! Labore consectetur tempora voluptatem
         non.
       </p>
-      <li>
-        <Link to={'/'}>Back Home</Link>
-      </li>
     </div>
   );
 };
