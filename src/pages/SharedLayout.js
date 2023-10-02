@@ -4,11 +4,11 @@ import Footer from '../components/Footer';
 
 const SharedLayout = () => {
   return (
-    <div>
+    <>
       <NavBar />
       <Outlet />
       <Footer />
-    </div>
+    </>
   );
 };
 
